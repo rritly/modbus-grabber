@@ -1,6 +1,6 @@
 [tool.poetry]
-name = "apr2-ts2-grabber"
-version = "0.1.0"
+name = "modbus-grabber"
+version = "0.1.1"
 description = ""
 authors = ["Roman Istomin <ra.istomin@yandex.com>"]
 readme = "README.md"
