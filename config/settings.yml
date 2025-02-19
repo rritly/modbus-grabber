@@ -1,0 +1,33 @@
+CONTROLLER:
+    HOST: '127.0.0.1'
+    PORT: 502
+    INPUT_DATA:
+        input_bits: |
+            0 varBit0 BOOL
+            1 varBit1 BOOL
+            2 varBit2 BOOL
+            3 varBit3 BOOL
+            4 varBit4 BOOL
+            5 varBit5 BOOL
+        input_registers: |
+            0 varReg0 UNSIGN_16
+            1 varReg1 UNSIGN_16
+            2 varReg2 UNSIGN_16
+            3 varReg3 UNSIGN_16
+            4 varReg4 SIGN_16
+            5 varReg5 FLOAT_BE
+    OUTPUT_DATA:
+        coils: |
+            0 varBit0 BOOL
+            1 varBit1 BOOL
+            2 varBit2 BOOL
+            3 varBit3 BOOL
+            4 varBit4 BOOL
+            5 varBit5 BOOL
+        holding_registers: |
+            0 varReg0 UNSIGN_16
+            1 varReg1 SIGN_16
+            2 varReg2 SIGN_16
+            3 varReg3 SIGN_16
+            4 varReg4 SIGN_16
+            5 varReg5 UNSIGN_64
